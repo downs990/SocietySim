@@ -12,6 +12,7 @@ public class Task {
 
     }
 
+
     public Task(String taskName, String locationName, int hourOfDay) {
         this.taskName = taskName;
         this.locationName = locationName;
