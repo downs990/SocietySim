@@ -14,6 +14,12 @@ public class Utils {
         CREATIVITY
     }
 
+    public enum TaskTypes{
+        RELOCATION,             // GO HOME, GO TO WORK, ETC.
+        SPECIFIC_INTERACTION    // LUNCH WITH FRIEND X, STUDY WITH PERSON Y, WORK WITH PERSON Z
+    }
+
+
     public enum EnvironmentalTraits{
 
     }

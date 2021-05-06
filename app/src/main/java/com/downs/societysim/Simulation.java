@@ -69,6 +69,7 @@ public class Simulation implements Runnable {
     }
 
 
+    // Main sim loop
     @Override
     public void run() {
 
