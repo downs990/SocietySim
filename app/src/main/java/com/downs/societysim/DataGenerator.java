@@ -9,7 +9,6 @@ import java.util.HashMap;
 public class DataGenerator {
 
 
-
     // TODO: Add Ontology per person for tracking all life decisions.
     public static Person generateRandomPerson(){
         return null;
