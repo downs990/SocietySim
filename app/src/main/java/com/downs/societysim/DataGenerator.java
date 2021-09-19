@@ -21,6 +21,7 @@ public class DataGenerator {
     }
 
 
+
     /**
      * 1. Total Environmental Balance
      * 2. Average Life Expectancy 100yrs

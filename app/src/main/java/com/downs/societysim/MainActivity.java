@@ -2,13 +2,14 @@ package com.downs.societysim;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     TextView mainSimDateTime;
 
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         // Start main sim loop
-        Thread t = new Thread(new Simulation(dNow, mainSimDateTime, this));
+        Thread t = new Thread(new Simulation(dNow, mainSimDateTime, ((Activity) this)));
         t.start();
 
     }
